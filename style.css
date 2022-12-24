@@ -133,4 +133,7 @@ li a :hover{
     #long{
         display: none;
     }
+    #short{
+        display: block;
+    }
 }
