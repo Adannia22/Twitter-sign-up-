@@ -113,3 +113,24 @@ li a :hover{
     color: grey;
     padding-left: 700px;
 }
+#short{
+    display: none;
+}
+@media screen and (max-width: 570px){
+    #first{
+        display: none;
+    }
+    h2{
+        margin: 90px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #spam{
+        width: 100%;
+        padding-left: 80px;
+    }
+    #long{
+        display: none;
+    }
+}
